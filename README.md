@@ -1,22 +1,7 @@
-# Matlab-Symbolic-Differential-Derivation-Package
- 
-Some convenient scripts for symbolic calculate.
- 
-## Getting Started
- 
-### Prerequisites
+# Matlab-Packages
 
-Matlab Symbolic Toolbox
- 
-### Installing
- 
-Add the code into the matlab working path and import the SDDP package using
-
-```
-import SDDP.*
-``` 
-
-## Running the demo
- 
-see demo.m
-
+|  包      | 简述      | 脚本 |  详细  |
+|  :----   | ----      | :---- |:---- |
+| SDDP     | 符号微分工具 | TimeDerivative  |  对时间导数 |
+| UTIL     | 辅助工具    |  saveStructTojson | 保存结构体到json |
+|          |            |  loadStructFromjson | 从json读取结构体 |
